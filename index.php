@@ -23,7 +23,7 @@ $Route (object) array(
 'folder'  => $site . 'captcha/' // This is where the cached file located.
 );
 ?>
-<form>
+<form method="post" action="mail.php">
 <div class="col-md-6">
   <div class="form-group">
     <div class="col-md-6">
